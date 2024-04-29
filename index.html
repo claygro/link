@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>action section</title>
+    <style>
+      body {
+        display: grid;
+        grid-template-columns: 40px 1fr;
+background-image:linear-gradient(to right,#fff5f5,red);
+background-size: cover;      
+      }
+      img {
+        grid-column: -2/-1;
+        margin-left: 50rem;
+        grid-row: 2/4;
+        margin-top: 40px;
+        border-radius:9px;
+      }
+      .text {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        font-size: 30px;
+        color: #9c36b5;
+      }
+      h1 {
+        grid-column: 2/-1;
+        grid-row: 2/3;
+        font-size: 50px;
+        color: #94d82d;
+      }
+    .where{
+      grid-row:3/4 ;
+      margin-top:10rem;
+      grid-column:-2/-1;
+    }
+    button{
+      grid-row: 3/4;
+     width:8rem;
+     
+    }
+   
+    .jjj{
+      width:10rem;
+      height:2rem;
+      
+text-align: center;
+border-radius: 9px;
+    }
+    .kkk{
+      width:10rem;
+      height:2rem;
+      
+text-align: center;
+border-radius: 9px;
+    }
+    .mmm{
+      font-size: 30px;
+      color: #38d9a9;
+    }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://th.bing.com/th/id/OIP.5l_OH1PhOwXo325f1AyVxAHaE8?w=289&h=192&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+      alt="image"
+    />
+    <h1>First sign up to enter or order food.</h1>
+
+    <form class="text" action="#" />
+      <label>Full Name</label>
+      <input type="text" placeholder="Name" required  class="jjj"/>
+ 
+      <label>Email address</label>
+      <input type="email" placeholder="me@example.com" required  class="kkk" />
+      <button>
+       sign up
+      </button>
+    </form>
+
+    <div class="where">
+   <label for="select-where"  class="mmm">choose</label>
+   <select id="select -where" required>
+    <option value="any" >please choose one</option>
+    <option value="friends" >With friends and family</option>
+    <option value="couple" > couple</option>
+    <option value="boss">Boss</option>
+   </select>
+   </div>
+  </body>
+</html>
